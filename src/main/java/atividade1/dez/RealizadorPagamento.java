@@ -1,6 +1,6 @@
 package atividade1.dez;
 
-public class Main {
+public class RealizadorPagamento {
     public static void main(String[] args) {
         Remuneravel r1,r2,r3;
 
