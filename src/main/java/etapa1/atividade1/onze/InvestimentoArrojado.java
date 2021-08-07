@@ -1,4 +1,4 @@
-package atividade1.onze;
+package etapa1.atividade1.onze;
 
 import java.util.Random;
 
