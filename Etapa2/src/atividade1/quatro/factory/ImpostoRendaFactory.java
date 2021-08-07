@@ -1,10 +1,10 @@
-package etapa2.atividade1.quatro.factory;
+package atividade1.quatro.factory;
 
-import etapa2.atividade1.quatro.calculo.Completo;
-import etapa2.atividade1.quatro.calculo.Simplificado;
-import etapa2.atividade1.quatro.imposto.ImpostoCompleto;
-import etapa2.atividade1.quatro.imposto.ImpostoRenda;
-import etapa2.atividade1.quatro.imposto.ImpostoSimplificado;
+import atividade1.quatro.calculo.Completo;
+import atividade1.quatro.calculo.Simplificado;
+import atividade1.quatro.imposto.ImpostoCompleto;
+import atividade1.quatro.imposto.ImpostoRenda;
+import atividade1.quatro.imposto.ImpostoSimplificado;
 
 public class ImpostoRendaFactory {
     public static final int SIMPLES = 0;

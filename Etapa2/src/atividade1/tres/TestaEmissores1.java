@@ -1,4 +1,4 @@
-package etapa2.atividade1.tres;
+package atividade1.tres;
 
 public class TestaEmissores1 {
     public static void main(String[] args) {

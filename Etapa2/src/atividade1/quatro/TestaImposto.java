@@ -1,7 +1,7 @@
-package etapa2.atividade1.quatro;
+package atividade1.quatro;
 
-import etapa2.atividade1.quatro.factory.ImpostoRendaFactory;
-import etapa2.atividade1.quatro.imposto.ImpostoRenda;
+import atividade1.quatro.factory.ImpostoRendaFactory;
+import atividade1.quatro.imposto.ImpostoRenda;
 
 public class TestaImposto {
     public static void main(String[] args) {
