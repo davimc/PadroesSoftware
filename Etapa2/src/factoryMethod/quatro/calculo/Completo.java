@@ -1,4 +1,4 @@
-package atividade1.quatro.calculo;
+package factoryMethod.quatro.calculo;
 
 public class Completo implements MetodoCalculo{
     @Override

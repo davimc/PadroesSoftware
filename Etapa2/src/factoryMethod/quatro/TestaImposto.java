@@ -1,7 +1,7 @@
-package atividade1.quatro;
+package factoryMethod.quatro;
 
-import atividade1.quatro.factory.ImpostoRendaFactory;
-import atividade1.quatro.imposto.ImpostoRenda;
+import factoryMethod.quatro.factory.ImpostoRendaFactory;
+import factoryMethod.quatro.imposto.ImpostoRenda;
 
 public class TestaImposto {
     public static void main(String[] args) {

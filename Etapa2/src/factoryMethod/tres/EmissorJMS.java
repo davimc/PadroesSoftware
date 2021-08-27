@@ -1,4 +1,4 @@
-package atividade1.tres;
+package factoryMethod.tres;
 
 public class EmissorJMS implements Emissor{
     @Override

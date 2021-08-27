@@ -1,4 +1,4 @@
-package atividade1.tres;
+package factoryMethod.tres;
 
 public class TestaEmissores2 {
     public static void main(String[] args) {

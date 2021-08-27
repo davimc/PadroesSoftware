@@ -1,6 +1,6 @@
-package atividade1.quatro.imposto;
+package factoryMethod.quatro.imposto;
 
-import atividade1.quatro.calculo.MetodoCalculo;
+import factoryMethod.quatro.calculo.MetodoCalculo;
 
 public class ImpostoCompleto extends ImpostoRenda {
     public ImpostoCompleto(MetodoCalculo calculo) {
