@@ -15,12 +15,11 @@ public class BingoSystem {
 
     public void sortearNumero() {
         while(numerosSorteados.size()<59) {
-            int num = GeradorNumeros.gerarNumero();
+            int numSorteado = GeradorNumeros.gerarNumero();
             //Pesquisar como usar ternário sem precisar ter retorno.
-            Boolean justAnUnsedFlag = numerosSorteados.contains(num) ? false : numerosSorteados.add(num);
-            System.out.println(numerosSorteados);
+            Boolean justAnUnsedFlag = numerosSorteados.contains(numSorteado) ? false : numerosSorteados.add(numSorteado);
             if(didIWin()) {
-                System.out.println("Quantidade de numeros sorteados: " + numerosSorteados.size() + "\n numeros: " + numerosSorteados);
+                System.out.println("Quantidade de numeros sorteados: " + numerosSorteados.size() + "\nNumeros: " + numerosSorteados);
                 return;
             }
         }
@@ -36,16 +35,5 @@ public class BingoSystem {
             return true;
         }
         return false;
-    }
-
-    public static final void main(String[] args) {
-        Set<Integer> set1 = new HashSet<>();
-        set1.addAll(Set.of(1,39,2,3,55,4,62,5));
-        Set<Integer> set2 = new HashSet<>();
-        set2.addAll(Set.of(1,2,3,4,5));
-        System.out.println(set1);
-        System.out.println(set2);
-        System.out.println(set1.containsAll(set2));
-
     }
 }
