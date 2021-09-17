@@ -9,13 +9,13 @@ public class GeradorNumeros {
     private static Random random = new Random();
 
     public static Integer gerarNumero() {
-        return random.nextInt(59)+1;
+        return random.nextInt(75)+1;
     }
-    public static Set<Integer> gerarTabela(int qtd) {
 
+    public static Set<Integer> gerarTabela(int qtd) {
         Set<Integer> numeros = new HashSet<>();
         while(numeros.size()<qtd) {
-            numeros.add(random.nextInt(59)+1);
+            numeros.add(gerarNumero());
         }
         return numeros;
     }
